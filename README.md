@@ -5,7 +5,7 @@ Deploys the tf-module-az-resource-group for an already existing Azure resource
 
 Reference the module to a specific version (recommended):
 ```hcl
-<code_block>
+"git::https://github.com/BrettOJ/tf-module-az-resource-group?ref=main"
 ```
 
 # Parameters
