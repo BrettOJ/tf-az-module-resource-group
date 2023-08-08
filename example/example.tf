@@ -15,7 +15,7 @@ module "resource_groups" {
   resource_groups = {
     1 = {
       name                   = "test"
-      location               = "southeastasia"
+      location               = var.location
       naming_convention_info = local.naming_convention_info
       tags = {
 
@@ -23,7 +23,7 @@ module "resource_groups" {
     }
     2 = {
       name                   = "test2"
-      location               = "southeastasia"
+      location               = var.location
       naming_convention_info = local.naming_convention_info
       tags = {
 
